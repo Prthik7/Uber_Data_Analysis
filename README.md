@@ -41,7 +41,7 @@ The dataset `UberDataset.csv` contains 1,156 rows and the following columns:
 
 3. **At what time do people book cabs the most from Uber?**
 
-   * **Answer**: Rides peak during `evening` hours (15:00–19:00).
+   * **Answer**: Rides peak during `afternoon` hours (15:00–19:00).
    * 📊 Time categorized using `pd.cut()` on hour extracted from `START_DATE`.
 
 4. **In which months do people book Uber rides less frequently?**
